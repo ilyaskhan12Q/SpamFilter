@@ -1,6 +1,6 @@
 # SpamFilter Pro
 
-**GitHub-Styled ML Classifier with Streamlit UI**
+**ML Classifier**
 
 SpamFilter Pro is a single-page academic machine learning app for SMS spam detection. It uses the UCI SMS Spam Collection dataset, a TF-IDF vectorizer, and Multinomial Naive Bayes to classify pasted messages as `[SPAM]` or `[HAM]` with a confidence score and one-click clipboard copy.
 
@@ -99,8 +99,13 @@ spam-prediction/
 
 ## Quick Start
 
-Create and activate a virtual environment:
+Clone repository :
+```bash
+git clone htps://github.com/ilyaskhan12Q/SpamFilter.git
+cd SpamFilter
+```
 
+Create and activate a virtual environment:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
