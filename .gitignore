@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.streamlit/secrets.toml
+
+# Downloaded source archive is reproducible from UCI; converted spam.csv is kept.
+data/smsspamcollection.zip
